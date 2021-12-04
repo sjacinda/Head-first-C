@@ -30,4 +30,4 @@ int	main(void)
 	return (0);
 }
 	
-	// printf("Ценность карты: %i\n", val);
+// printf("Ценность карты: %i\n", val);
