@@ -25,7 +25,7 @@ int	main(void)
 		val = atoi(card_name);
 	if (val > 2 && val < 7)
 		puts("Счётчик увелтичился");
-	else (val > 9)
+	else (val > 9 && val < 12)
 		pust ("Счётчик уменьшился");
 	return (0);
 }
