@@ -23,6 +23,11 @@ int	main(void)
 		val = 11;
 	else
 		val = atoi(card_name);
-	printf("Ценность карты: %i\n", val);
+	if (val > 2 && val < 7)
+		puts("Счётчик увелтичился");
+	else (val > 9)
+		pust ("Счётчик уменьшился");
 	return (0);
 }
+	
+	// printf("Ценность карты: %i\n", val);
