@@ -29,5 +29,3 @@ int	main(void)
 		pust ("Счётчик уменьшился");
 	return (0);
 }
-	
-// printf("Ценность карты: %i\n", val);
